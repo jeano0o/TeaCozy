@@ -1,0 +1,163 @@
+/* OVERALL */
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+h2,h3,h4 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+  }
+
+header nav {
+  padding-right: 10px;
+  }
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  }
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+  }
+
+.logo img {
+  height: 50px;
+  margin-right: 12px;
+  }
+
+/* MISSION */
+
+.columnlarge {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission .missionimage {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/Users/jeanegger/Desktop/projects/TeaCozy/resources/images/img-mission-background.jpg");
+  background-image: center;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+}
+
+div {
+    display: block;
+}
+
+.content {
+  width: 100%;
+  background-color: black;
+}
+
+/* FEATURED TEA */
+
+#featured {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.tea {
+  display: flex;
+  flex-direction: row;
+  align-item: center;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 300px;
+  margin: 30px 10px;
+  padding: 5px;
+  }
+
+.tea img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.tea h4{
+  text-align: center;
+}
+
+/* LOCATIONS */
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("/Users/jeanegger/Desktop/projects/TeaCozy/resources/images/img-locations-background.jpg");
+  background-image: center;
+  background-repeat: no-repeat;
+  margin-left: 25px;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* CONTACT */
+
+#contact {
+  height: 200px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
